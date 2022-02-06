@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+
+}
+$color : darkblue;
+body{
+    background-color: aliceblue;
+    color: darkblue;
+    
+
+    .container{
+        padding: 3em;
+        text-align: center;
+        margin: 5em 12em 0em;
+        border: 4px rgba(0, 0, 0, 0.137) solid;
+        border-radius: 12px;
+    }
+    img{
+        background-color: purple;
+        border-radius: 50%;
+    }
+    h1{
+        margin-top: 1em;
+        color: $color;
+    }
+    p{
+       text-align: left;
+        font-size: 1.2em;
+    }
+    a{
+        font-size: 1.3em;
+        text-decoration: none;
+        font-weight: 700;
+        &::before{
+            color: cornflowerblue;
+        }
+        &::after{
+            color: purple;
+            text-decoration: none;
+        }
+        &:focus{
+            color: black;
+        }
+    }
+}
+
+footer{
+   
+    padding: 1.5em;
+    background-color: rgba(0, 0, 0, 0.651);
+    display: flex;
+    gap: 20em;
+    font-size: 0.7em;
+    color: white;
+
+    h3{
+        font-size: 1.2em;
+
+    }
+    .foot1,.foot2,.foot3{
+        margin: auto 10em;
+    }
+    .foot1 a, .foot2 a,.foot3 a{
+        color: rgba(255, 255, 255, 0.726);
+
+        &:hover{
+            color: aliceblue;
+        }
+    }
+}

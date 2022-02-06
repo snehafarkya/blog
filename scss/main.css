@@ -1,0 +1,79 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  color: darkblue;
+}
+
+body .container {
+  padding: 3em;
+  text-align: center;
+  margin: 5em 12em 0em;
+  border: 4px rgba(0, 0, 0, 0.137) solid;
+  border-radius: 12px;
+}
+
+body img {
+  background-color: purple;
+  border-radius: 50%;
+}
+
+body h1 {
+  margin-top: 1em;
+  color: darkblue;
+}
+
+body p {
+  text-align: left;
+  font-size: 1.2em;
+}
+
+body a {
+  font-size: 1.3em;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+body a::before {
+  color: cornflowerblue;
+}
+
+body a::after {
+  color: purple;
+  text-decoration: none;
+}
+
+body a:focus {
+  color: black;
+}
+
+footer {
+  padding: 1.5em;
+  background-color: rgba(0, 0, 0, 0.651);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20em;
+  font-size: 0.7em;
+  color: white;
+}
+
+footer h3 {
+  font-size: 1.2em;
+}
+
+footer .foot1, footer .foot2, footer .foot3 {
+  margin: auto 10em;
+}
+
+footer .foot1 a, footer .foot2 a, footer .foot3 a {
+  color: rgba(255, 255, 255, 0.726);
+}
+
+footer .foot1 a:hover, footer .foot2 a:hover, footer .foot3 a:hover {
+  color: aliceblue;
+}
+/*# sourceMappingURL=main.css.map */
